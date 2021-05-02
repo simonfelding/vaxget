@@ -1,0 +1,17 @@
+
+person1:
+  name: John Doe
+  age: 31
+  address: Hovedgaden 1 1. Th.
+  tlf: 12345678
+  postnoby: 1000 København
+  vaccinested: Øksnehallen
+  lastvax: no
+person2:
+  name: Jane Doe
+  age: 31
+  address: Hovedgaden 1 1. Th.
+  tlf: 12345678
+  postnoby: 1000 København
+  vaccinested: Øksnehallen
+  lastvax: no
