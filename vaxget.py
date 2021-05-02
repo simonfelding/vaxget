@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-# COVID-19 vax getter
+# COVID-19 leftover vaccine getter
+# by Simon Felding
 
 # 1. get survey link
 
