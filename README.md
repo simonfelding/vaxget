@@ -1,5 +1,5 @@
 # vaxget
-Automatically fills in the RegionH leftover vaccine form questionnaire (SurveyXact) using python and selenium webdriver.
+Automatically fills in the RegionH leftover vaccine form questionnaire (SurveyXact) using python and selenium webdriver. For an arbitrary amount of people.
 
 ---
 
