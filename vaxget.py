@@ -1,19 +1,11 @@
 #!/usr/bin/python3
 
-# COVID-19 leftover vaccine getter
-# by Simon Felding
+# COVID-19 vax getter
 
 # 1. get survey link
 
-from bs4 import BeautifulSoup
-import requests
-from datetime import date
+survey = "https://www.survey-xact.dk/LinkCollector?key=JPH8ZGHNL21N"
 
-URL = 'https://www.regionh.dk/presse-og-nyt/pressemeddelelser-og-nyheder/Sider/Tilmelding-til-at-modtage-overskydende-vaccine-mod-COVID-19.aspx'
-page = requests.get(URL)
-soup = BeautifulSoup(page.content, 'html.parser')
-survey = soup.find('a', href=True, text='Tilmeld dig dagens liste')['href']
-print(f"{date.today()}: today url is {survey}")
 # 2. get friends
 
 ##name
@@ -38,6 +30,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import time
+from datetime import date
 from random import uniform as randint
 
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36'
